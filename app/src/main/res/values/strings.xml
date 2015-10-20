@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">E8xPhone</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="app_title">App for E8</string>
+
+    <string name="city_deafult">珠海</string>
+
+    <string name="account_titile">我的E8</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+
+</resources>

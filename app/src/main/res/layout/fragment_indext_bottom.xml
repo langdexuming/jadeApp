@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.langdexuming.jadeapp.IndextBottomFragment"
+    android:orientation="horizontal"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:id="@+id/button1_index"
+        android:src="@drawable/icon_nav_dock_entry_close2x"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:id="@+id/button1_set"
+        android:src="@drawable/menu"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
