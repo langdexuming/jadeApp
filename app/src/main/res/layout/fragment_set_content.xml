@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.langdexuming.jadeapp.SetContentFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="手机模式" />
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="在家模式"/>
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="音量设置" />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/voice_seekBar" />
+</LinearLayout>

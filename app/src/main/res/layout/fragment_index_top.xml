@@ -9,7 +9,8 @@
         android:text="@string/account_titile"
         android:gravity="center"
         android:textColor="@color/primary_text"
-        android:textSize="32dp"/>
+        android:textSize="32dp"
+        />
 
 
 </FrameLayout>
