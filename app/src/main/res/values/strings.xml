@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">E8xPhone</string>
+    <string name="app_name">E8手机管理软件</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -9,9 +9,13 @@
     <string name="city_deafult">珠海</string>
 
     <string name="account_titile">我的E8</string>
+    <string name="machine_name">门口机</string>
+    <string name="button3_call_text">呼叫</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_calling">可视对讲界面</string>
+    <string name="title_activity_guide">GuideActivity</string>
 
 
 

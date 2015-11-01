@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="mode">
+        <item>在家模式</item>
+        <item>外出模式</item>
+    </string-array>
+    <string-array name="list_defalse">
+        <item>正在加载数据.....</item>
+    </string-array>
+    <string-array name="network">
+        <item>无连接</item>
+        <item>移动网络</item>
+        <item>WIFI</item>
+    </string-array>
+    <string-array name="ring">
+        <item>小苹果</item>
+        <item>小情歌</item>
+        <item>大哥</item>
+    </string-array>
+    <string-array name="vibrate">
+        <item>振动一</item>
+        <item>振动二</item>
+        <item>振动三</item>
+    </string-array>
     <string-array name="city">
         <item>上海</item>
         <item>北京</item>
         <item>珠海</item>
         <item>台湾</item>
+        <item>青岛</item>
+        <item>香港</item>
+        <item>澳门</item>
+        <item>青岛</item>
+        <item>香港</item>
+        <item>澳门</item>
         <item>青岛</item>
         <item>香港</item>
         <item>澳门</item>
