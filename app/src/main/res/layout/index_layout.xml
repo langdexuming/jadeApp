@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndexLayoutActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:layout_weight="1">
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment_index_product"
+            android:name="com.example.langdexuming.jadeapp.fragment.content.IndexProductFragment"
+            tools:layout="@layout/fragment_index_product" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="com.example.langdexuming.jadeapp.fragment.content.IndexWebFragment"
+            android:id="@+id/fragment_index_web"
+            tools:layout="@layout/fragment_index_web" />
+    </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>

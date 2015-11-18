@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:longClickable="true"
+    android:id="@+id/fragment_mymac_content_linear">
+    <LinearLayout
+        android:layout_width="128dp"
+        android:layout_height="128dp">
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="false"
+        android:id="@+id/fragment_mymac_content_img"
+        android:layout_gravity="center"
+        />
+    </LinearLayout>
+    <TableLayout
+        android:layout_width="240dp"
+        android:layout_height="128dp"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+            <TextView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:text="设备名称:"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:layout_column="0"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="64dp"
+                android:id="@+id/fragment_mymac_content_name"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:layout_column="1" />
+        </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="64dp">
+
+            <TextView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:text="设备地址:"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:layout_column="0" />
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="64dp"
+                    android:id="@+id/fragment_mymac_content_loc"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:layout_column="1"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

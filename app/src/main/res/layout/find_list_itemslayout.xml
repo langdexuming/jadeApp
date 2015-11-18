@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:longClickable="true"
+    android:id="@+id/listView_item">
+    <LinearLayout
+        android:layout_width="64dp"
+        android:layout_height="64dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="false"
+        android:id="@+id/fragment_find_content_img"
+        android:layout_gravity="center"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="64dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:text="设备名称"
+                android:gravity="center"
+                android:textSize="12dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/fragment_find_content_name"
+                android:gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="64dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:text="设备地址"
+                android:gravity="center"
+                android:textSize="12dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/fragment_find_content_loc"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

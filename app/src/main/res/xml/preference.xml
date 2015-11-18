@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="test"
+    android:layout="@layout/person_center_layout">
+
+    <PreferenceCategory android:title="设备信息">
+        <EditTextPreference
+            android:key="edittext_preference_phone_name"
+            android:title="本设备名称"
+            android:summary="请输入设备名称"
+            android:dialogTitle="设备名称" />
+            </PreferenceCategory>
+    <PreferenceCategory android:title="网络信息">
+        <ListPreference
+            android:key="List_preference"
+            android:title="网络选择"
+            android:summary="选择所需的网络"
+            android:entries="@array/network"
+            android:entryValues="@array/network"
+            android:dialogTitle="选择所需的WIFI网络"
+            />
+    </PreferenceCategory>
+   <PreferenceCategory android:title="模式设置">
+    <ListPreference
+        android:key="List_preference"
+        android:title="安全模式选择"
+        android:summary="选择所需的模式"
+        android:entries="@array/mode"
+        android:entryValues="@array/mode"
+        android:dialogTitle="选择所需的模式"
+        />
+</PreferenceCategory>
+    <PreferenceCategory android:title="通知设置">
+        <CheckBoxPreference
+            android:key="checkbox_preference_noVoice"
+            android:title="静音模式"
+            android:summaryOn="开启"
+            android:summaryOff="禁止"/>
+        <ListPreference
+            android:key="List_preference_inform"
+            android:title="铃声选择"
+            android:summary="选择所需的铃声"
+            android:entries="@array/ring"
+            android:entryValues="@array/ring"
+            android:dialogTitle="选择所需的铃声"
+            />
+        <ListPreference
+            android:key="List_preference_vibrate"
+            android:title="振动"
+            android:summary="选择振动"
+            android:entries="@array/vibrate"
+            android:entryValues="@array/vibrate"
+            android:dialogTitle="选择振动"
+            />
+        <CheckBoxPreference
+            android:key="checkbox_preference_ringVibrate"
+            android:title="铃响时振动"
+            android:summaryOn="开启"
+            android:summaryOff="禁止"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

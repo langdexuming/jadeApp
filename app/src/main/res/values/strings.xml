@@ -16,6 +16,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_calling">可视对讲界面</string>
     <string name="title_activity_guide">GuideActivity</string>
+    <string name="title_activity_add_machine">AddMachineActivity</string>
 
 
 

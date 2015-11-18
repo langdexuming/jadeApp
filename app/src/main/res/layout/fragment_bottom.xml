@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.langdexuming.jadeapp.fragment.bottom.BottomFragment"
+    android:orientation="horizontal"
+    android:background="@color/divider">
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+        android:layout_gravity="center">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="首页"
+        android:gravity="center"
+        android:id="@+id/button_index"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="发现"
+            android:gravity="center"
+            android:id="@+id/button_find"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="我的设备"
+            android:gravity="center"
+            android:id="@+id/button_mymac"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="个人中心"
+        android:gravity="center"
+            android:id="@+id/button_person_center"
+        />
+    </LinearLayout>
+
+
+</LinearLayout>
